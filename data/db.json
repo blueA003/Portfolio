@@ -1,0 +1,57 @@
+{
+  "introduction": {
+    "name": "박민석",
+    "birthdate": "00.05.21",
+    "location": "경기도 안양시",
+    "university": "경기과학기술대학교 컴퓨터모바일융합공학과(전공심화)",
+    "email": "gogurye77@naver.com",
+    "phone": "010-2842-1184"
+  },  
+  "skill": [
+    {
+      "name": "JavaScript",
+      "text": "HTML5와 CSS를 활용해 졸업 작품을 제작하였으며, 함수, 변수, 연산자, 클래스, 배열, alert, 클릭 이벤트 등을 활용하였습니다.",
+      "percent": 80
+    },
+    {
+      "name": "TypeScript",
+      "text": "",
+      "percent": 40
+    },
+    {
+      "name": "Python",
+      "text": "빅데이터 과목 발표를 준비하며, 데이터 분류 및 크롤링(Crawling)을 통해 필요한 데이터를 수집하여 발표 과제를 완성했습니다.",
+      "percent": 50
+    },
+    {
+      "name": "React",
+      "text": "useState, useEffect, 그리고 조건부 렌더링을 활용하여 동적이고 상태 기반의 사용자 인터페이스를 구현하는 것을 학습했습니다.",
+      "percent": 70
+    },
+    {
+      "name": "Next.js",
+      "text": "컴포넌트 기반 아키텍처로 useState, useEffect, getServerSideProps, 디스트럭처링, 동적 페이지 라우팅, Link 등을 학습했습니다.",
+      "percent": 50
+    },
+    {
+      "name": "Vue.js",
+      "text": "컴포넌트 기반 아키텍처와 데이터 바인딩을 활용하여 사용자 인터페이스를 동적으로 구축하고, Vuex와 Vue Router를 학습했습니다.",
+      "percent": 40
+    },
+    {
+      "name": "Router",
+      "text": "Vue.js의 동적 라우팅을 활용해 졸업 작품을 구현했으며, Next.js의 페이지 라우팅을 기반으로 동적 페이지 생성 방식을 학습했습니다.",
+      "percent": 50
+    },
+    {
+      "name": "Node.js",
+      "text": "Webpack을 활용하여 dependencies와 devDependencies를 구분하고, npm을 통해 필요한 패키지를 설치하는 방법을 학습했습니다.",
+      "percent": 50
+    },
+    {
+      "name": "Axios",
+      "text": "비동기 통신을 구현하였고, 이를 Vue.js, React, Next.js 학습에 실제로 적용하여 API 데이터 처리 및 UI 반영 과정을 경험하였습니다.",
+      "percent": 30
+    }
+  ]
+}

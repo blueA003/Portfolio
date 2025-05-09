@@ -1,0 +1,41 @@
+.nav-container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  max-height: 100px;
+  height: 100%;
+  padding: 20px 24px;
+}
+
+.top-nav-btn {
+  border: none;
+  background-color: white;
+  font-size: 24px;
+}
+
+.top-nav-btn:hover {
+  color: grey
+}
+
+.nav-btn {
+  border: none;
+  background-color: white;
+  font-size: 20px;
+  padding: 0px 24px;
+}
+
+.nav-btn:hover {
+  color: grey
+}
+
+.header-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  transition: opacity .3s linear(0 0%, 0.89 100.98%);
+  background-color: #fff;
+  box-shadow: 0 2px 8px hsla(0, 0%, 80%, .8);
+}

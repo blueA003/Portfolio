@@ -1,0 +1,40 @@
+.info-container {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 1.5rem;
+  justify-content: space-between;
+  /* 자식 요소 간의 간격 분배 */
+}
+
+.info {
+  display: flex;
+  align-items: flex-start;
+  /* 내용물 상단 정렬 */
+  box-sizing: border-box;
+  /* 패딩 포함 크기 계산 */
+  flex: 1 1 calc(33.333% - 20px);
+  /* 기본 3열 레이아웃 */
+  padding: 0 40px;
+  /* 좌우 패딩 20px */
+}
+
+@media (min-width: 1024px) {
+  .info {
+    flex: 1 1 calc(33.333% - 20px);
+    /* 3열 */
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .info {
+    flex: 1 1 calc(50% - 20px);
+    /* 2열 */
+  }
+}
+
+@media (max-width: 767px) {
+  .info {
+    flex: 1 1 100%;
+    /* 1열 */
+  }
+}
