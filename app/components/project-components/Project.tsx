@@ -8,7 +8,7 @@ export default function Project() {
       <h3 className='titleFont'>
         PROJECT
       </h3>
-       <ProjectDetail/>
+      <ProjectDetail/>
     </div>
   )
 }

@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from 'react'
 import skill from '@/data/db.json'
-import "@/styles/skill.css"
+import "@/styles/chart.css"
 import Modal from "./Modal";
 
 
@@ -20,17 +20,18 @@ export default function MySkill({ }) {
   }
 
   return (
-    <div className="my-skill-container">
+    <div className="chart-container">
       {skillname.map((item, index) => (
-        <div key={index} className="skill-row">
+        <div key={index} className="chart-row">
           <button 
           className="skill-name-alert"
           onClick={() => openModal(item.name, item.text)}
-        >
-          {item.name}</button>
-          <div className="skill-name-bar">
+          >
+            {item.name}
+          </button>
+          <div className="chart-name-bar">
             <div
-              className="skill-name-bar-filled"
+              className="chart-name-bar-filled"
               style={{ width: `${item.percent}%` }}
             >
               {item.percent}%

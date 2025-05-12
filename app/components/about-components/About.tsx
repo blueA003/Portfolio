@@ -8,6 +8,7 @@ import { RiGraduationCapLine } from "react-icons/ri";
 import { TfiEmail } from "react-icons/tfi";
 import { BsTelephone } from "react-icons/bs";
 import AboutInfo from './AboutInfo';
+import AboutCredits from './AboutCredits';
 
 const AboutArray = [{
   icon: AiOutlineUser,
@@ -53,6 +54,10 @@ export default function About() {
           </div>
         ))}
       </div>
+      <h3 className='titleFont'>
+        CREDIT
+      </h3>
+      <AboutCredits/>
     </div>
   )
 }

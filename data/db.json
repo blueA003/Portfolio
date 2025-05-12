@@ -15,7 +15,7 @@
     },
     {
       "name": "TypeScript",
-      "text": "",
+      "text": "TypeScript를 활용해 포트폴리오 페이지를 제작하였으며, interface, 함수, type, 제네릭, 클래스, 연산자 등을 학습했습니다.",
       "percent": 40
     },
     {
@@ -52,6 +52,48 @@
       "name": "Axios",
       "text": "비동기 통신을 구현하였고, 이를 Vue.js, React, Next.js 학습에 실제로 적용하여 API 데이터 처리 및 UI 반영 과정을 경험하였습니다.",
       "percent": 30
+    }
+  ],
+  "credits": [
+    {
+      "Semester": "학점 4.5/2.81",
+      "credit": 2.81
+    },
+    {
+      "Semester": "1학년 1학기",
+      "credit": 2.43
+    },
+    {
+      "Semester": "1학년 2학기",
+      "credit": 2.03
+    },
+    {
+      "Semester": "2학년 1학기",
+      "credit": 2.41
+    },
+    {
+      "Semester": "2학년 2학기",
+      "credit": 2.18
+    },
+    {
+      "Semester": "3학년 1학기",
+      "credit": 2.36
+    },
+    {
+      "Semester": "3학년 2학기",
+      "credit": 3.98
+    },
+    {
+      "Semester": "하계 방학",
+      "credit": 3.42
+    },
+    {
+      "Semester": "4학년 1학기",
+      "credit": 3.75
+    },
+    {
+      "Semester": "4학년 2학기",
+      "credit": 4
     }
   ]
 }
