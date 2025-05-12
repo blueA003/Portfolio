@@ -1,0 +1,68 @@
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 1.5rem;
+  justify-content: space-between;
+  padding: 30px;
+  gap: 30px;
+}
+
+.project-detail-container{
+  word-break: break-all;
+  box-sizing: border-box;
+  flex: 1 1 calc(50% - 20px);
+  flex-direction: column;
+  background-color: #fff;
+  box-shadow: 0 0 10px 0 rgba(68, 68, 68, .4);
+  border-radius: 16px;
+  padding: 30px;
+}
+
+.project-title{
+  color: #fff;
+  padding: 8px 12px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgb(0, 0, 0);
+  border-radius: 8px;
+  width: fit-content;
+}
+
+.project-sub-title{
+  text-align: center;
+  padding: 5px 0px;
+  font-size: 20px;
+  width: fit-content;
+  font-weight: bold;
+}
+
+.project-detail{
+  padding-left: 10px;
+  font-size: 15px;
+  width: fit-content;
+}
+
+.project-link{
+  padding-left: 10px;
+  margin: 5px 0px;
+  font-size: 20px;
+  width: 100%;
+
+
+}
+
+.project-skill{
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 8px;
+  background-color: gray;
+  font-size: 15px;
+  width: fit-content;
+}
+
+@media (max-width: 1024px) {
+  .project-detail-container {
+    flex: 1 1 100%;
+    /* 너비를 100%로 설정하여 한 줄에 하나씩 배치 */
+  }
+}

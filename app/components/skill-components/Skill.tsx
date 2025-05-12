@@ -4,10 +4,10 @@ import MySkill from './MySkill'
 export default function Skill() {
   return (
     <div id='skills' className='container'>
-        <h3 className='titleFont'>
-           SKILLS
-        </h3>
-        <MySkill/>
+      <h3 className='titleFont'>
+        SKILLS
+      </h3>
+      <MySkill/>
     </div>
   )
 }

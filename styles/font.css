@@ -1,7 +1,12 @@
 .titleFont {
-  font-size: 48px;
-  margin-Bottom: 40px;
-  margin-top: 0px;
-  box-sizing:border-box;
+  font-size: 2.5rem;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.header-title-font {
+  padding-top: 64px;
+  font-size: 2.5rem;
+  box-sizing: border-box;
   text-align: center;
 }

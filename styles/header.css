@@ -8,7 +8,7 @@
   height: 100%;
   padding: 20px 24px;
 }
-
+ 
 .top-nav-btn {
   border: none;
   background-color: white;
@@ -16,7 +16,7 @@
 }
 
 .top-nav-btn:hover {
-  color: grey
+  color: grey;
 }
 
 .nav-btn {
@@ -27,7 +27,7 @@
 }
 
 .nav-btn:hover {
-  color: grey
+  color: grey;
 }
 
 .header-container {
@@ -35,7 +35,61 @@
   top: 0;
   right: 0;
   left: 0;
-  transition: opacity .3s linear(0 0%, 0.89 100.98%);
+  transition: opacity .3s linear;
+  /* transition: opacity .3s linear(0 0%, 0.89 100.98%); */
   background-color: #fff;
   box-shadow: 0 2px 8px hsla(0, 0%, 80%, .8);
+}
+
+@media (max-width: 1024px) {
+  .nav-container {
+    /* flex-direction: column; */
+    align-items: center;
+  }
+  .header-container {
+    max-height: 80px;
+  }
+  /* .nav-btn {
+    padding: 0px 16px;
+    font-size: 20px;
+  }
+  .top-nav-btn{
+    align-items: center;
+    font-size: 20px;
+  } */
+}
+
+@media (max-width: 768px) {
+  .nav-container {
+    padding: 10px 20px;
+  }
+  /* .nav-btn {
+    padding: 0px 12px;
+    font-size: 16px;
+  }
+  .top-nav-btn {
+    font-size: 16px;
+  } */
+}
+
+@media (max-width: 480px) {
+  .nav-btn {
+      padding: 0px 10px;
+      /* font-size: 12px; */
+  }
+  /* .top-nav-btn {
+    font-size: 12px;
+  } */
+}
+
+
+@media (max-width: 395px) {
+  .nav-btn {
+    padding: 0px 8px;
+    font-size: 16px;
+  }
+
+  .top-nav-btn {
+    font-size: 16px;
+  }
 }

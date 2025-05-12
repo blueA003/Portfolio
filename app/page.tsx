@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './components/header-components/Header'
 import Skill from './components/skill-components/Skill'
-import Footer from './components/Footer'
+import Project from './components/project-components/Project'
 import About from './components/about-components/About'
 
 export default function page() {
@@ -10,7 +10,7 @@ export default function page() {
       <Header/>
       <About/>
       <Skill/>
-      <Footer/>
+      <Project/>
     </div>
   )
 }
