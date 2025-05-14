@@ -2,6 +2,7 @@
   font-size: 2.5rem;
   box-sizing: border-box;
   text-align: center;
+  font-weight: bold;
 }
 
 .header-title-font {
@@ -25,3 +26,4 @@
   background-color: black;
   text-align: start;
 }
+

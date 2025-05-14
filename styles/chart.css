@@ -50,6 +50,7 @@
   font-size: 18px;
   text-align: center;
   min-width: 120px;
+  font-weight: 500;
 }
 
 .skill-name-alert {
@@ -58,6 +59,7 @@
   min-width: 120px;
   border: none;
   background-color: white;
+  font-weight: 500;
 }
 
 .skill-name-alert:hover {

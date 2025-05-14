@@ -14,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" id='header'>
+    <html lang="en" id='header' >
       <head>{}</head>
       <body>{children}</body>
     </html>

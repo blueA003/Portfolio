@@ -4,6 +4,7 @@ import Skill from './components/skill-components/Skill'
 import Project from './components/project-components/Project'
 import About from './components/about-components/About'
 import Footer from './components/Footer'
+import '@/styles/globals.css'
 
 export default function page() {
   return (

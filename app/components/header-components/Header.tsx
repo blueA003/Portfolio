@@ -21,7 +21,7 @@ export default function Header() {
         
       </header>
       <div className='container'>
-        <h1 className='header-title-font'>
+        <h1 className='header-title-font' style={{wordBreak: 'keep-all'}}>
           안녕하세요
           <br/>
           주니어 프론트엔드 개발자

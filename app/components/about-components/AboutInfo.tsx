@@ -28,8 +28,8 @@ export default function AboutInfo({icon: Icon, info, infoKey: InfoKey}: AboutInf
       <div>
         <Icon style={{fontSize: "40px"}}/>
       </div>
-        <div style={{fontSize: "16px",fontWeight:'light'}}>
-          <div style={{fontWeight:'bold'}}>{InfoKey}</div>
+        <div style={{fontSize: "16px",fontWeight:'400'}}>
+          <div style={{fontWeight:'700'}}>{InfoKey}</div>
           {infoValue}
         </div>
     </div>
