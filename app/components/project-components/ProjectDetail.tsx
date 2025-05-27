@@ -8,15 +8,15 @@ const projectArr = [{
   Detail: "이 프로젝트는 Next.js, React, TypeScript를 사용하여 개발한 개인 웹사이트입니다.",
   Link:"https://github.com/blueA003/Portfolio",
   LinkText: "https://github.com/blueA003/Portfolio",
-  Skills:"Next.js, React, TypeScript"
+  Skills:"Next.js, React, TypeScript, AWS"
 },
 {
-  Title: "React-Learn",
-  SubTitle: "React 학습 프로젝트",
-  Detail: "이 프로젝트는 React의 기초를 익히기 위해 인프런 강의를 따라하며 학습했습니다.",
-  Link:"https://github.com/blueA003/cat-jjal-maker/tree/main/cat-jjal-maker-main",
-  LinkText: "https://github.com/blueA003/cat-jjal-maker/tree/main/cat-jjal-maker-main",
-  Skills:"React, JavaScript"
+  Title: "HSR Quize",
+  SubTitle: "붕괴: 스타레일 퀴즈 제작",
+  Detail: "검색, 정렬, 페이지 이동은 useRouter와 useSearchParams를 활용한 쿼리 파라미터 기반 라우팅으로 구현하였으며, 정답 처리와 점수 관리는 useState와 useEffect를 이용해 구성하였습니다.",
+  Link:"https://www.pmshsrquiz.com",
+  LinkText: "https://www.pmshsrquiz.com",
+  Skills:"Next.js, React, TypeScript, AWS"
 },
 {
   Title: "Next.js-Learn",
